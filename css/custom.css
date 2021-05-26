@@ -1,0 +1,631 @@
+/* Typography */
+
+@import url("https://p.typekit.net/p.css?s=1&k=bdd7hnl&ht=tk&f=19119.19121&a=622077&app=typekit&e=css");
+
+@font-face {
+font-family:"akzidenz-grotesk";
+src:url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/99cda7/000000000000000000013631/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"akzidenz-grotesk-medium";
+src:url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/9d033e/000000000000000000013633/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;
+}
+
+body {
+  font-family: "akzidenz-grotesk", 'Helvetica', 'Arial', sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 18px;
+}
+
+a:hover {
+  color: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* contact page */
+
+.main-office > h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-office > p {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+p.other-contacts > h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.other-contacts p {
+  margin-bottom: 30px;
+}
+
+.other-contacts h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* project pages */
+
+.project h1 {
+  font-family: "akzidenz-grotesk-medium";
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+.project h2 {
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: lighter;
+  color: #999999;
+  margin-bottom: 60px;
+
+}
+
+.project-images a {
+  text-decoration: none;
+}
+
+.project-images h4, .project-description h4 {
+  font-family: "akzidenz-grotesk-medium";
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 55px;
+}
+
+.project p {
+  font-size: 20px;
+  line-height: 29px;
+  color: #999;
+}
+
+.project-description h5 {
+  font-family: "akzidenz-grotesk-medium";
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+.project-description p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #999;
+}
+
+.project-description p.awards {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-bottom: 0;
+  color: #999;
+  line-height: 29px;
+}
+
+.project-image-container {
+  background-color: #000;
+}
+
+.project-image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.project-image-container img:hover {
+  opacity: 0.8;
+}
+
+/* Navbar */
+
+#splashNav {
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+}
+
+#mainNav {
+  height: 80px;
+  transition: background-color 0.5s ease;
+}
+
+#secondNav {
+  position: relative;
+  top: 80px;
+  height: 80px;
+  padding-bottom: 15px;
+  background: #fff;
+}
+
+#mainNav.mainNav--page {
+  background: #fff;
+  padding: 15px 15px 0 15px;
+  border-bottom: solid 1px rgb(0,0,0, 0.5);
+}
+
+.mainNav--project, .mainNav--home {
+  padding: 15px 15px 0 15px;
+}
+
+.mainNav--project .nav-link, .mainNav--home .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.navbar-nav {
+  margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.navbar-scroll {
+  border: none !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#mainNav .navbar-nav .nav-item {
+  font-size: 18px;
+}
+
+#mainNav.mainNav--page .navbar-nav .nav-item a {
+  font-size: 18px;
+  color: #999;
+}
+
+#mainNav.mainNav--page .navbar-nav .nav-item a:hover {
+  color: #000;
+}
+
+#secondNav .navbar-nav .nav-item {
+  margin-right: 65px;
+  font-size: 18px;
+}
+
+.navbar-white#mainNav .navbar-nav .nav-item a {
+  color: #999;
+}
+
+.mainNav--home.navbar-white#mainNav svg#brand {
+  fill: #000;
+  height: 16px;
+}
+
+svg#brand {
+  height: 16px;
+  fill: #fff;
+}
+
+.navbar-homepage {
+  display: none;
+}
+
+.nav-link--white {
+  color: #fff;
+}
+/* Layout */
+
+.container {
+  max-width: 1628px;
+}
+
+/* Footer */
+
+.footer {
+  font-size: 18px;
+  margin-top: 150px;
+  margin-left: 17px;
+}
+
+.footer a {
+  color: #999;
+  font-size: 20px;
+}
+
+.social-links a {
+  font-family: "akzidenz-grotesk-medium";
+  color: #000;
+}
+
+.terms-links a {
+  margin-right: 40px;
+}
+
+.footer-brand {
+  height: 16px;
+  margin-bottom: 7px;
+  margin-right: 50px;
+}
+
+.tc-links a {
+  margin-right: 30px;
+}
+
+.social-links a {
+  font-family: "akzidenz-grotesk-medium";
+  margin-right: 30px;
+}
+
+.secondary-navigation {
+  position: relative;
+  top: 94px;
+  background-color: #fff;
+  height: 89px;
+  border-top: 1px solid #000;
+  padding: 1.8rem;
+}
+
+.secondary-navigation a {
+  font-style: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  margin-right: 35px;
+  padding-left: 10px;
+}
+
+.secondary-navigation > .navbar-nav {
+  flex-direction: row;
+}
+   
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-style: normal;
+  font-size: 20px;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #000;
+}
+
+#active-link > .nav-link {
+  font-family: "akzidenz-grotesk-medium";
+}
+
+/* Splash Screen */
+
+#porfolio-fullscreen div {
+  position:absolute; 
+  top:0; 
+  left:0; 
+  margin:0; 
+  min-width:100%; 
+  min-height:100%;
+  display: none;
+}
+
+/* contact page */
+
+.contact-page-header {
+  height: 600px;
+  width: 100%;
+  background-image: url(../assets/img/meier-office-contact.jpg) !important;
+}
+
+
+.contact-container {
+  background-size: cover;
+  height: 740px;
+  margin-top: 80px;
+  background-position: bottom;
+}
+
+.portfolio-container {
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.container-fluid.contact-us {
+  margin-top: 30px;
+  padding: 0 30px;
+}
+
+/* Projects pages */
+
+.navbar-white {
+  background: #fff;
+}
+
+.navbar-white.navbar-scroll svg#brand {
+  fill: #000;
+}
+
+.mainNav--project.navbar-white .nav-link {
+  color: #999;
+}
+
+.project-info-cont {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
+.project-info {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.project-images a {
+  text-decoration: none;
+}
+
+.project-info h5 {
+  font-family: "akzidenz-grotesk-medium";
+  margin: 0;
+  color: #fff;
+}
+
+.project-info p {
+  font-family: "akzidenz-grotesk";
+  color: #fff;
+  margin: 0;
+}
+
+.project-related-cont {
+  height: 340px;
+}
+
+.project-image-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  height: 340px;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+}
+
+/* project page navbar */
+
+.mainNav--project svg#brand {
+  height: 16px;
+  fill: #fff;
+}
+
+.mainNav--page svg#brand {
+  height: 16px;
+  fill: #000;
+}
+
+#mainNav.mainNav--projects .navbar-brand img {
+  height: 16px;
+}
+
+#mainNav.mainNav--projects .nav-item .nav-link {
+  font-style: normal;
+}
+
+/* end project page navbar */
+
+.projects-container {
+  background-size: cover;
+  height: 740px;
+  background-position: bottom;
+}
+
+.project-page-header {
+  height: 80vh;
+  margin: 0 auto;
+  background-image: url(../assets/img/portfolio/Project_Hero_1598_1065.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: inherit;
+  background-attachment: fixed;
+}
+
+.container-fluid.project, .container.project {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+li#active-link a {
+  color: #000;
+}
+
+.container-fluid.project-images, .container-fluid.project-images, .container-fluid.project-description, .container.project-images, .container.project-images, .container.project-description {
+  border-top: 1px solid #000;
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 30px 0;
+}
+
+.project-image {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  transition: width 2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio1 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Cultr_Barcelona_01.jpg) !important;
+  }
+
+  .portfolio2 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Civic_Jubilee_02.jpg) !important;
+  }
+
+  .portfolio3 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Montagnola_Residence_03.jpg) !important;
+  }
+
+  .portfolio4 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Hospt_Seamarq_04.jpg) !important;
+  }
+
+  .portfolio5 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Douglas_House_05.jpg) !important;
+  }
+
+  .portfolio6 {
+    background-image: url(../assets/img/portfolio/Home_Vertical_Oxfordshire_UK_06.jpg) !important;
+  }
+
+  .portfolio7 {
+    background-image: url(../assets/img/portfolio/Home_Last_Image_Vertical.jpg) !important;
+  }
+
+  .splash .splash-brand img {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+}
+
+.portfolio1 {
+  background-image: url(../assets/img/portfolio/Home_Cultr_Barcelona_01.jpg);
+}
+
+.portfolio2 {
+  background-image: url(../assets/img/portfolio/Home_Civic_Jubilee_02.jpg);
+}
+
+
+.portfolio3 {
+  background-image: url(../assets/img/portfolio/Home_Montagnola_Residence_03.jpg);
+}
+
+.portfolio4 {
+  background-image: url(../assets/img/portfolio/Home_Hospt_Seamarq_04.jpg);
+}
+
+.portfolio5 {
+  background-image: url(../assets/img/portfolio/Home_Douglas_House_05.jpg);
+}
+
+.portfolio6 {
+  background-image: url(../assets/img/portfolio/Home_Oxfordshire_UK_06.jpg);
+}
+
+.portfolio7 {
+  background-image: url(../assets/img/portfolio/Home_Museum_Last.jpg);
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    height: 100vh;
+  }
+}
+
+/* splash screen */
+
+
+.splash {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+}
+
+.splash-brand {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash .splash-brand img {
+  height: 100%;
+  width: 200%;
+}
+
+@keyframes fadeOut{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.fade-out{
+  opacity: 1;
+  animation: fadeOut 5s ease-in forwards;
+}
+
+/* light box overrides */
+
+.lightboxOverlay {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.lb-data .lb-close {
+  display: none;
+}
+
+.project-images img {
+  width: 100%;
+}
+
+/* lightbox */
+
+.lb-nav a.lb-next {
+  background: none;
+}
+
+.lb-nav a.lb-prev {
+  background: none;
+}
+
+/* Simple Slide */
+
+.fade {
+  opacity: 1;
+  position: relative;
+  top: 45px;
+  transition-property: top;
+  transition-duration: 0.5s
+}
+
+/* bootstrap override */
+
+.custom-gutter > [class*='col-'] {
+  padding-right:30px;
+  padding-left:30px; 
+}
+
+.row {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+
+
